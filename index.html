@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom -->
     <link rel="stylesheet" href="./styles.css">
     <title>Simply Chocolate</title>
@@ -61,20 +65,21 @@
 
     <main>
         <!-- hero section -->
-        <secction class="hero">
-            <h1>Treat yourself or a loved one to
+        <section class="hero">
+            <h1 class="hero-title">
+                Treat yourself or a loved one to
                 our finest ingredients for a moment
                 of pure delight!</h1>
 
             <ul>
-                <li><button type="button">Buy now</button></li>
-                <li><button type="button">How it’s made</button></li>
+                <li><button class="hero-btn buy" type="button">Buy now</button></li>
+                <li><button class="hero-btn made" type="button">How it’s made</button></li>
             </ul>
             <button type="button">scroll down</button>
-        </secction>
+        </section>
 
         <!-- benefit section -->
-        <secction>
+        <section>
 
             <h2 hidden>Benefits</h2>
 
@@ -99,10 +104,10 @@
                 </li>
             </ul>
 
-        </secction>
+        </section>
 
         <!-- ingridients section -->
-        <secction>
+        <section>
             <h2>It all adds up to one exceptional <span>taste</span> sensation</h2>
             <ul>
                 <li>
@@ -134,10 +139,10 @@
                     <p>COCONUT OIL</p>
                 </li>
             </ul>
-        </secction>
+        </section>
 
         <!-- Made section -->
-        <secction id="made">
+        <section id="made">
             <h2>How it’s made?</h2>
             <img src="./images/how it's made/how-it's-made.png" alt="" width="600" height="400">
             <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
@@ -151,11 +156,11 @@
                     harden.</li>
             </ol>
             </img>
-        </secction>
+        </section>
 
-        <secction></secction>
-        <secction></secction>
-        <secction id="reviews"></secction>
+        <section></section>
+        <section></section>
+        <section id="reviews"></section>
     </main>
 
     <footer>

@@ -16,6 +16,7 @@ a {
 button {
   font-family: inherit;
   color: currentColor;
+  cursor: pointer;
 }
 ul,
 ol {
@@ -64,4 +65,22 @@ header {
 /* Hero section */
 .hero {
   background-color: rgba(17, 17, 17, 0.7);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #fd9222;
 }
