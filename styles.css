@@ -173,3 +173,11 @@ header {
   font-weight: 600;
   line-height: auto;
 }
+
+/* Top-seller section */
+.topseller-caption {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
