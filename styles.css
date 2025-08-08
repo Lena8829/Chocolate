@@ -37,6 +37,9 @@ ol {
   text-transform: uppercase;
   text-align: center;
 }
+.accent {
+  color: #fd9222;
+}
 
 /* Header section */
 
@@ -120,10 +123,6 @@ header {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.accent {
-  color: #fd9222;
-}
-
 /* Ingridients section */
 .ingridients-caption {
   font-size: 14px;
@@ -180,4 +179,35 @@ header {
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: -0.02em;
+}
+
+/* Reviews section */
+.reviews-caption {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+.reviews-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.review-btn {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: auto;
+}
+
+/* Footer section */
+footer {
+  background-color: #1e1823;
+}
+.footer-slogan {
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  color: #ffffff;
 }
