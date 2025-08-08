@@ -123,3 +123,53 @@ header {
 .accent {
   color: #fd9222;
 }
+
+/* Ingridients section */
+.ingridients-caption {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+/* Made section */
+.made-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+.made-list {
+  /* list-style-type: disc; */
+}
+
+/* .made-list-item::before {
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  border-radius: 50%;
+} */
+.made-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* Products section */
+.product-caption {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+.product-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+.product-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: auto;
+}
