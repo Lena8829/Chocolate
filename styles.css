@@ -203,11 +203,43 @@ header {
 /* Footer section */
 footer {
   background-color: #1e1823;
+  color: #fafafa;
 }
 .footer-slogan {
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
   font-weight: 500;
+  color: #ffffff;
+}
+.footer-socials-caption {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  color: #ffffff;
+}
+.footer-socials-item {
+  color: #ffffff;
+}
+.footer-address-caption {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  color: #ffffff;
+  font-style: normal;
+}
+.footer-address-list {
+  letter-spacing: -0.02em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  color: #ffffff;
+  font-style: normal;
+}
+.footer-menu {
+  letter-spacing: -0.02em;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
   color: #ffffff;
 }
