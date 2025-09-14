@@ -235,10 +235,12 @@ header {
 .hero-scroll-img:focus {
   fill: #fafafa;
 }
+
 /* Benefits section */
 .benefits {
   background-color: #1e1823;
   color: #ffffff;
+  padding: 50px 0;
 }
 
 .benefits-caption {
@@ -256,9 +258,11 @@ header {
 }
 .benefints-list {
   display: flex;
+  gap: 88px;
+  justify-content: center;
 }
 .benefints-list-item {
-  width: 380px;
+  width: 308px;
 }
 
 /* Ingridients section */
