@@ -519,7 +519,7 @@ footer {
 }
 .footer-top {
   display: flex;
-  padding-bottom: 50px;
+  padding: 50px 32px;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -531,15 +531,26 @@ footer {
   color: #ffffff;
 
   width: 300px;
+  margin-right: auto;
+}
+.footer-socials {
+  margin-right: 50px;
+}
+.footer-socials-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-socials-caption {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
   color: #ffffff;
+
+  margin-bottom: 14px;
 }
 .footer-socials-item {
-  color: #ffffff;
+  background-color: #fafafa;
 }
 .footer-address-caption {
   font-size: 14px;
