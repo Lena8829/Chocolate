@@ -39,8 +39,27 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Common styles */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .ingredients-title,
 .made-title,
@@ -247,6 +266,8 @@ header {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.22;
+
+  margin-bottom: 18px;
 }
 
 .benefints-text {
@@ -266,16 +287,40 @@ header {
 }
 
 /* Ingridients section */
+.ingredients {
+  padding-top: 120px;
+}
 .ingridients-caption {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.28;
   letter-spacing: -0.02em;
+
+  margin-top: 36px;
 }
 .ingredients-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1136px;
+  gap: 32px;
+}
+.ingredients-list-item {
+  padding: 28px 23px;
+
+  /* width: 260px; */
+  width: calc((100% - 32px * 3) / 4);
+
+  border-radius: 15px;
+  border: 1px solid #fd9222;
+  background: #fff;
+}
+.ingredients-list-item:nth-child(4n + 1) {
+  background: #fd9222;
+  color: #fff;
+}
+.ingredients-list-item:nth-child(4n + 3) {
+  background: #1e1823;
+  border: 1px solid #1e1823;
+  color: #fff;
 }
 
 /* Made section */
