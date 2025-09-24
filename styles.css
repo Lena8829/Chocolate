@@ -428,12 +428,31 @@ header {
 }
 .top-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 .top-list-item {
   text-align: center;
+  width: calc((100% - 16px * 2) / 3);
+
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+
+  background-color: #ffffff;
 }
+.topseller-pic {
+}
+
 .topsellers-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 28px 0;
 }
 
 /* Reviews section */
