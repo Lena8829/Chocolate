@@ -256,17 +256,20 @@ header {
   justify-content: center;
 }
 .hero-scroll-circle:hover,
-.hero-scroll-circle:focus {
+.hero-scroll-icon,
+.hero-scroll-circle:focus,
+.hero-scroll-icon {
   background-color: #fd9222;
-  color: #fafafa;
+  /* color: #fafafa; */
+  fill: #fff;
 }
 .hero-scroll-icon {
   fill: #fd9222;
 }
-.hero-scroll-img:hover,
+/* .hero-scroll-img:hover,
 .hero-scroll-img:focus {
   fill: #fafafa;
-}
+} */
 
 /* Benefits section */
 .benefits {
@@ -407,7 +410,7 @@ header {
   left: calc(50% - 22px);
 }
 .made-play_btn-icon {
-  fill: none;
+  fill: #fff;
   stroke: #fff;
 }
 .made-left-side {
@@ -509,9 +512,17 @@ header {
   text-align: left;
 
   font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
+  line-height: 1.29;
+  letter-spacing: -0.0209em;
   color: #ffffff;
+
+  background: linear-gradient(
+    165deg,
+    rgba(253, 253, 255, 0.1) 4%,
+    rgba(8, 2, 21, 0) 110%
+  );
+  border-radius: 15px 15px 0px 0px;
+  backdrop-filter: blur(8px);
 }
 
 .topseller-pic {
