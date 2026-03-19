@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="simply chocolate with nuts and fruits" keywords="chocolate" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="./images/icon/fav-icon.png" type="image/png" />
+    <link rel="shortcut icon" href="./images/icon/chocolate-logo.svg" type="image/png" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,12 @@
 
             <a class="header-logo" href="./index.html">
                 <span class="header-logo-accent">SIMPLY</span> CHOCOLATE
-                <img class="header-logo-img" src="./images/icon/fav-icon.png" alt="logo" width="24" height="24">
+
+                <svg class="header-logo-img" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-chocolate-logo"></use>
+                </svg>
+
+                <!-- <img class="header-logo-img" src="./images/icon/fav-icon.png" alt="logo" width="24" height="24"> -->
             </a>
 
             <ul class="header-menu">
@@ -45,11 +50,10 @@
                         target="_blank" rel="noopener noreferrer">
 
                         <svg class="header-socials-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-facebook"></use>
+                            <use href="./images/sprite.svg#icon-facebook"></use>
                         </svg>
 
                     </a>
-
 
                 </li>
 
@@ -58,7 +62,7 @@
                         target="_blank" rel="noopener noreferrer">
 
                         <svg class="header-socials-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-instagram"></use>
+                            <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
 
                     </a>
@@ -68,8 +72,8 @@
                     <a class="header-socials-link" href="https://www.twitter.com" aria-label="twitter site"
                         target="_blank" rel="noopener noreferrer">
 
-                        <svg class="header-socials-icon" width="24" height="24" style="fill:red">
-                            <use href="./images/icons.svg#icon-twitter"></use>
+                        <svg class="header-socials-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-twitter"></use>
                         </svg>
 
                     </a>
@@ -77,7 +81,6 @@
             </ul>
 
         </div>
-
 
 
     </header>
@@ -106,7 +109,7 @@
                         <span class="hero-scroll-circle">
 
                             <svg class="hero-scroll-icon" width="22" height="22">
-                                <use href="./images/icons.svg#icon-scroll-down-btn"></use>
+                                <use href="./images/icon/scroll-down.svg"></use>
                             </svg>
 
                             <!-- <img class="hero-scroll-img" src="./images/icon/hero-scroll-btn.svg"
@@ -136,7 +139,7 @@
                         <div class="benefits-icon-wrapper">
 
                             <svg class="benefits-icon" width="32" height="32">
-                                <use href="./images/icons.svg#icon-chocolate"></use>
+                                <use href="./images/sprite.svg#icon-chocolate"></use>
                             </svg>
 
                         </div>
@@ -150,6 +153,15 @@
                     </li>
 
                     <li class="benefints-list-item">
+
+                        <div class="benefits-icon-wrapper">
+
+                            <svg class="benefits-icon" width="32" height="32">
+                                <use href="./images/sprite.svg#icon-coin"></use>
+                            </svg>
+
+                        </div>
+
                         <h3 class="benefits-caption">Affordable price</h3>
                         <p class="benefints-text">Indulge in high-quality chocolate without breaking the bank with
                             Simply
@@ -161,6 +173,15 @@
                     </li>
 
                     <li class="benefints-list-item">
+
+                        <div class="benefits-icon-wrapper">
+
+                            <svg class="benefits-icon" width="32" height="32">
+                                <use href="./images/sprite.svg#icon-spoon"></use>
+                            </svg>
+
+                        </div>
+
                         <h3 class="benefits-caption">Own production</h3>
                         <p class="benefints-text">We take pride in our own production process, ensuring that every step
                             is
@@ -523,8 +544,8 @@
 
     </footer>
 
-<!-- Modal Window -->
- <div class="backdrop"></div>
+    <!-- Modal Window -->
+    <div class="backdrop"></div>
 
 </body>
 
