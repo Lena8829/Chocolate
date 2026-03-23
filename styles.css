@@ -157,6 +157,11 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 10px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-socials-link:hover,
 .header-socials-link:focus {
@@ -563,6 +568,12 @@ header {
 }
 
 /* Reviews section */
+
+.reviews-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .reviews-title {
   margin-bottom: 91px;
 }
@@ -662,7 +673,27 @@ footer {
   margin-bottom: 14px;
 }
 .footer-socials-item {
-  background-color: #fafafa;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.footer-socials-link {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-socials-icon {
+  fill: currentColor;
 }
 .footer-address-caption {
   font-size: 14px;
